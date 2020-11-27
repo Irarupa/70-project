@@ -5,13 +5,13 @@ import * as Permissions from 'expo-permissions';
 
 export default class WriteStory extends React.Component {
   render() {
-        
+        return(
       <View>
         <TextInput
         style={styles.inputBox}
         placeholder="Student Id"
         />
-      </View>    
+      </View> )   
         } 
         }
       
